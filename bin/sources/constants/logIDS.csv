@@ -1,0 +1,5 @@
+ID, log
+10001,IKEv2-PLAT-2: Received PFKEY Acquire SA for SPI 0x0, error FALSE
+11001,IKEv2-PLAT-5: INVALID PSH HANDLE
+11002,IKEv2-PLAT-2: attempting to find tunnel group for IP: 1.1.1.1
+11003,IKEv2-PLAT-2: mapped to tunnel group 1.1.1.1 using peer IP
