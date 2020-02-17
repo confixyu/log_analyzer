@@ -2,11 +2,22 @@ import fire
 from sources.snippets.snippet import *
 
 userFile = []
-logList = readLogList()
+
 
 # Load user file with file path
 def loadFile(filePath):
     userFile = inputFile(filePath)
+
+    for line in userFile:
+        word = line.find('initiator')
+        if (word > 0):
+            print("initiator")
+            print(word)
+            logList = readLogList()
+        elif (word > 0):
+            print("Reciver")
+        else:
+            print("Type of log is unknow")
 
 
 #

@@ -6,6 +6,7 @@ def inputFile(filePath):
     try:
         file = open(filePath, "r+")
         userFile = file.readlines()
+        print("User file is read")
         return userFile
     except Exception as e:
         print("Something is wrong reading user file:(")
@@ -28,3 +29,6 @@ def readLogList():
     except Exception as e:
         print("Show error from readLogList")
         print(e)
+
+def getLogType(userFile):
+    print(userFile)
